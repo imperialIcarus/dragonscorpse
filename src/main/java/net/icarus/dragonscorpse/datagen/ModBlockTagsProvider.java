@@ -18,8 +18,10 @@ public class ModBlockTagsProvider extends FabricTagsProvider.BlockTagsProvider {
     protected void addTags(HolderLookup.Provider provider) {
         tag(BlockTags.MINEABLE_WITH_PICKAXE)
                 .add(ModBlocks.getRK(ModBlocks.DRAGONITE_BLOCK));
+
         tag(BlockTags.NEEDS_DIAMOND_TOOL)
                 .add(ModBlocks.getRK(ModBlocks.DRAGONITE_BLOCK));
+
         tag(ModTags.Blocks.NEEDS_DRAGONITE_TOOL)
                 .addTag(BlockTags.NEEDS_DIAMOND_TOOL);
     }

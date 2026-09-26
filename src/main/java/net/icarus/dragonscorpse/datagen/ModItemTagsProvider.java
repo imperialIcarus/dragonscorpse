@@ -18,6 +18,7 @@ public class ModItemTagsProvider extends FabricTagsProvider.ItemTagsProvider {
 
     @Override
     protected void addTags(HolderLookup.Provider provider) {
+
         tag(ItemTags.SWORDS)
                 .add(ModItems.getRK(DRAGONITE_SWORD));
         tag(ItemTags.PICKAXES)
@@ -30,6 +31,7 @@ public class ModItemTagsProvider extends FabricTagsProvider.ItemTagsProvider {
                 .add(ModItems.getRK(DRAGONITE_HOE));
         tag(ItemTags.SPEARS)
                 .add(ModItems.getRK(DRAGONITE_SPEAR));
+
         tag(ItemTags.HEAD_ARMOR)
                 .add(ModItems.getRK(ModItems.DRAGONITE_HELMET));
         tag(ItemTags.CHEST_ARMOR)
@@ -38,8 +40,10 @@ public class ModItemTagsProvider extends FabricTagsProvider.ItemTagsProvider {
                 .add(ModItems.getRK(ModItems.DRAGONITE_LEGGINGS));
         tag(ItemTags.FOOT_ARMOR)
                 .add(ModItems.getRK(ModItems.DRAGONITE_BOOTS));
+
         tag(ModTags.Items.DRAGONITE_REPAIR)
                 .add(ModItems.getRK(DRAGONITE_INGOT));
+
         tag(ItemTags.MACE_ENCHANTABLE)
                 .add(ModItems.getRK(DRAGON_MACE));
         tag(ItemTags.DURABILITY_ENCHANTABLE)

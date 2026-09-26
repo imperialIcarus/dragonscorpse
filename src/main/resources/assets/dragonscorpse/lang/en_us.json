@@ -43,6 +43,11 @@
   "item.dragonscorpse.dragon_staff": "Dragon Staff",
 
   "block.dragonscorpse.reinforced_end_stone": "Reinforced End Stone",
-  "block.dragonscorpse.dragonite_block": "Dragonite Block"
+  "block.dragonscorpse.dragonite_block": "Dragonite Block",
+
+  "tooltip.dragonscorpse.dragon_staff": "§eSHIFT§7§i for more information",
+  "tooltip.dragonscorpse.dragon_staff_shifted_1": "§eRIGHT CLICK§7§i to throw an ender pearl",
+  "tooltip.dragonscorpse.dragon_staff_shifted_2": "§eSHIFT RIGHT CLICK§7§i to shoot a dragon fireball",
+  "tooltip.dragonscorpse.dragon_staff_shifted_3": "§7§iCooldown 30 Seconds"
 
 }

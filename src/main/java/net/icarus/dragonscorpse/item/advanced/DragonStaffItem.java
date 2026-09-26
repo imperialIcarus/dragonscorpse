@@ -1,5 +1,7 @@
 package net.icarus.dragonscorpse.item.advanced;
 
+import net.minecraft.client.Minecraft;
+import net.minecraft.network.chat.Component;
 import net.minecraft.server.level.ServerLevel;
 import net.minecraft.sounds.SoundEvents;
 import net.minecraft.sounds.SoundSource;
@@ -12,8 +14,13 @@ import net.minecraft.world.entity.projectile.Projectile;
 import net.minecraft.world.entity.projectile.hurtingprojectile.DragonFireball;
 import net.minecraft.world.entity.projectile.throwableitemprojectile.ThrownEnderpearl;
 import net.minecraft.world.item.Item;
+import net.minecraft.world.item.ItemStack;
+import net.minecraft.world.item.TooltipFlag;
+import net.minecraft.world.item.component.TooltipDisplay;
 import net.minecraft.world.level.Level;
 import net.minecraft.world.phys.Vec3;
+
+import java.util.function.Consumer;
 
 public class DragonStaffItem extends Item {
     public DragonStaffItem(Properties properties) {
@@ -46,5 +53,17 @@ public class DragonStaffItem extends Item {
         }
         player.awardStat(Stats.ITEM_USED.get(this));
         return InteractionResult.SUCCESS;
+    }
+
+    @Override
+    public void appendHoverText(ItemStack itemStack, TooltipContext context, TooltipDisplay display, Consumer<Component> builder, TooltipFlag tooltipFlag) {
+        if (!Minecraft.getInstance().hasShiftDown()) {
+            builder.accept(Component.translatable("tooltip.dragonscorpse.dragon_staff"));
+        } else {
+            builder.accept(Component.translatable("tooltip.dragonscorpse.dragon_staff_shifted_1"));
+            builder.accept(Component.translatable("tooltip.dragonscorpse.dragon_staff_shifted_2"));
+            builder.accept(Component.translatable("tooltip.dragonscorpse.dragon_staff_shifted_3"));
+        }
+        super.appendHoverText(itemStack, context, display, builder, tooltipFlag);
     }
 }

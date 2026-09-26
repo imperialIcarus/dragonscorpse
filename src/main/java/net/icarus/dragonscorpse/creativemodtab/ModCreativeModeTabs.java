@@ -15,6 +15,7 @@ import net.minecraft.world.level.ItemLike;
 import java.util.List;
 
 public class ModCreativeModeTabs {
+    // Items List
     public static final List<ItemLike> DRAGONS_CORPSE_ITEMS = List.of(
             ModItems.DRAGON_BONE,
             ModItems.DRAGON_FLESH,

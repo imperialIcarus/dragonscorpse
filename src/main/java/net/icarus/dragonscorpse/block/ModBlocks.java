@@ -26,12 +26,13 @@ import java.util.function.Consumer;
 import java.util.function.Function;
 
 public class ModBlocks {
+    // Dragonite Block
     public static final Block DRAGONITE_BLOCK = registerBlock("dragonite_block", properties -> new Block(properties
             .strength(60f, 1200f)
             .mapColor(MapColor.COLOR_PURPLE)
             .sound(SoundType.NETHERITE_BLOCK)
             .requiresCorrectToolForDrops()));
-
+    // Reinforced Endstone
     public static final Block REINFORCED_ENDSTONE = registerBlock("reinforced_end_stone", properties -> new Block(properties
             .strength(80f, 1200f)
             .pushReaction(PushReaction.IMMOVEABLE)

@@ -24,42 +24,49 @@ public class ModAdvancementsProvider extends FabricAdvancementProvider {
 
     @Override
     public void generateAdvancement(HolderLookup.Provider registryLookup, Consumer<AdvancementHolder> consumer) {
+        // Dragonite Ingot Advancement
         AdvancementHolder dragoniteIngot = Advancement.Builder.advancement()
                 .parent(createPlaceholder(Identifier.withDefaultNamespace("end/kill_dragon")))
                 .display(ModItems.DRAGONITE_INGOT, Component.translatable("advancements.dragonscorpse.end.dragonite_ingot.title"), Component.translatable("advancements.dragonscorpse.end.dragonite_ingot.desc"), AdvancementType.CHALLENGE, true, true, false)
                 .rewards(AdvancementRewards.Builder.experience(400))
                 .addCriterion("dragonite_ingot", InventoryChangeTrigger.TriggerInstance.hasItems(ModItems.DRAGONITE_INGOT))
                 .save(consumer, DragonSCorpse.id("end/dragonite_ingot"));
+        // Dragonite Armor Advancement
         Advancement.Builder.advancement()
                 .parent(dragoniteIngot)
                 .display(ModItems.DRAGONITE_CHESTPLATE, Component.translatable("advancements.dragonscorpse.end.dragonite_armor.title"), Component.translatable("advancements.dragonscorpse.end.dragonite_armor.desc"), AdvancementType.CHALLENGE, true, true, false)
                 .rewards(AdvancementRewards.Builder.experience(400))
                 .addCriterion("dragonite_armor", InventoryChangeTrigger.TriggerInstance.hasItems(ModItems.DRAGONITE_HELMET, ModItems.DRAGONITE_CHESTPLATE, ModItems.DRAGONITE_LEGGINGS, ModItems.DRAGONITE_BOOTS))
                 .save(consumer, DragonSCorpse.id("end/dragonite_armor"));
+        // Dragonite Hoe Advancement
         Advancement.Builder.advancement()
                 .parent(dragoniteIngot)
                 .display(ModItems.DRAGONITE_HOE, Component.translatable("advancements.dragonscorpse.end.dragonite_hoe.title"), Component.translatable("advancements.dragonscorpse.end.dragonite_hoe.desc"), AdvancementType.CHALLENGE, true, true, false)
                 .rewards(AdvancementRewards.Builder.experience(400))
                 .addCriterion("dragonite_hoe", InventoryChangeTrigger.TriggerInstance.hasItems(ModItems.DRAGONITE_HOE))
                 .save(consumer, DragonSCorpse.id("end/dragonite_hoe"));
+        // Dragon Elytra Advancement
         Advancement.Builder.advancement()
                 .parent(createPlaceholder(Identifier.withDefaultNamespace("end/elytra")))
                 .display(ModItems.DRAGON_ELYTRA, Component.translatable("advancements.dragonscorpse.end.dragon_elytra.title"), Component.translatable("advancements.dragonscorpse.end.dragon_elytra.desc"), AdvancementType.CHALLENGE, true, true, false)
                 .rewards(AdvancementRewards.Builder.experience(600))
                 .addCriterion("dragon_elytra", InventoryChangeTrigger.TriggerInstance.hasItems(ModItems.DRAGON_ELYTRA))
                 .save(consumer, DragonSCorpse.id("end/dragon_elytra"));
+        // Dragon Eye Advancement
         AdvancementHolder dragonEye = Advancement.Builder.advancement()
                 .parent(createPlaceholder(Identifier.withDefaultNamespace("end/kill_dragon")))
                 .display(ModItems.DRAGON_EYE, Component.translatable("advancements.dragonscorpse.end.dragon_eye.title"), Component.translatable("advancements.dragonscorpse.end.dragon_eye.desc"), AdvancementType.CHALLENGE, true, true, false)
                 .rewards(AdvancementRewards.Builder.experience(600))
                 .addCriterion("dragon_eye", InventoryChangeTrigger.TriggerInstance.hasItems(ModItems.DRAGON_EYE))
                 .save(consumer, DragonSCorpse.id("end/dragon_eye"));
+        // Dragon Staff Advancement
         Advancement.Builder.advancement()
                 .parent(dragonEye)
                 .display(ModItems.DRAGON_STAFF, Component.translatable("advancements.dragonscorpse.end.dragon_staff.title"), Component.translatable("advancements.dragonscorpse.end.dragon_staff.desc"), AdvancementType.CHALLENGE, true, true, false)
                 .rewards(AdvancementRewards.Builder.experience(1000))
                 .addCriterion("dragon_staff", InventoryChangeTrigger.TriggerInstance.hasItems(ModItems.DRAGON_EYE))
                 .save(consumer, DragonSCorpse.id("end/dragon_staff"));
+        // Dragon Mace Advancement
         Advancement.Builder.advancement()
                 .parent(dragonEye)
                 .display(ModItems.DRAGON_MACE, Component.translatable("advancements.dragonscorpse.end.dragon_mace.title"), Component.translatable("advancements.dragonscorpse.end.dragon_mace.desc"), AdvancementType.CHALLENGE, true, true, false)
