@@ -1,0 +1,14 @@
+{
+  "model": {
+    "type": "minecraft:condition",
+    "on_false": {
+      "type": "minecraft:model",
+      "model": "dragonscorpse:item/dragon_elytra"
+    },
+    "on_true": {
+      "type": "minecraft:model",
+      "model": "dragonscorpse:item/dragon_elytra_broken"
+    },
+    "property": "minecraft:broken"
+  }
+}

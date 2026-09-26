@@ -1,0 +1,9 @@
+{
+  "type": "minecraft:smithing_transform",
+  "addition": "dragonscorpse:dragonite_ingot",
+  "base": "minecraft:netherite_shovel",
+  "result": {
+    "id": "dragonscorpse:dragonite_shovel"
+  },
+  "template": "dragonscorpse:dragonite_upgrade_smithing_template"
+}

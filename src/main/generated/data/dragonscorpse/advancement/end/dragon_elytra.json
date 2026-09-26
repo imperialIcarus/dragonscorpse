@@ -1,0 +1,36 @@
+{
+  "parent": "minecraft:end/elytra",
+  "criteria": {
+    "dragon_elytra": {
+      "conditions": {
+        "items": [
+          {
+            "items": "dragonscorpse:dragon_elytra"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    }
+  },
+  "display": {
+    "description": {
+      "translate": "advancements.dragonscorpse.end.dragon_elytra.desc"
+    },
+    "frame": "challenge",
+    "icon": {
+      "id": "dragonscorpse:dragon_elytra"
+    },
+    "title": {
+      "translate": "advancements.dragonscorpse.end.dragon_elytra.title"
+    }
+  },
+  "requirements": [
+    [
+      "dragon_elytra"
+    ]
+  ],
+  "rewards": {
+    "experience": 600
+  },
+  "sends_telemetry_event": true
+}

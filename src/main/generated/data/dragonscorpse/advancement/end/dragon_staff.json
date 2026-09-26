@@ -1,0 +1,36 @@
+{
+  "parent": "dragonscorpse:end/dragon_eye",
+  "criteria": {
+    "dragon_staff": {
+      "conditions": {
+        "items": [
+          {
+            "items": "dragonscorpse:dragon_eye"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    }
+  },
+  "display": {
+    "description": {
+      "translate": "advancements.dragonscorpse.end.dragon_staff.desc"
+    },
+    "frame": "challenge",
+    "icon": {
+      "id": "dragonscorpse:dragon_staff"
+    },
+    "title": {
+      "translate": "advancements.dragonscorpse.end.dragon_staff.title"
+    }
+  },
+  "requirements": [
+    [
+      "dragon_staff"
+    ]
+  ],
+  "rewards": {
+    "experience": 1000
+  },
+  "sends_telemetry_event": true
+}

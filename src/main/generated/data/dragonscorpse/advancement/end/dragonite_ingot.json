@@ -1,0 +1,36 @@
+{
+  "parent": "minecraft:end/kill_dragon",
+  "criteria": {
+    "dragonite_ingot": {
+      "conditions": {
+        "items": [
+          {
+            "items": "dragonscorpse:dragonite_ingot"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    }
+  },
+  "display": {
+    "description": {
+      "translate": "advancements.dragonscorpse.end.dragonite_ingot.desc"
+    },
+    "frame": "challenge",
+    "icon": {
+      "id": "dragonscorpse:dragonite_ingot"
+    },
+    "title": {
+      "translate": "advancements.dragonscorpse.end.dragonite_ingot.title"
+    }
+  },
+  "requirements": [
+    [
+      "dragonite_ingot"
+    ]
+  ],
+  "rewards": {
+    "experience": 400
+  },
+  "sends_telemetry_event": true
+}

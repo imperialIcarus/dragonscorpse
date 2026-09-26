@@ -1,0 +1,32 @@
+{
+  "parent": "minecraft:recipes/root",
+  "criteria": {
+    "has_dragonite_block": {
+      "conditions": {
+        "items": [
+          {
+            "items": "dragonscorpse:dragonite_block"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "has_the_recipe": {
+      "conditions": {
+        "recipes": "dragonscorpse:dragonite_block_to_dragonite_ingot"
+      },
+      "trigger": "minecraft:recipe_unlocked"
+    }
+  },
+  "requirements": [
+    [
+      "has_the_recipe",
+      "has_dragonite_block"
+    ]
+  ],
+  "rewards": {
+    "recipes": [
+      "dragonscorpse:dragonite_block_to_dragonite_ingot"
+    ]
+  }
+}

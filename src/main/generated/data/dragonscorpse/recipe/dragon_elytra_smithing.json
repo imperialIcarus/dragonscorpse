@@ -1,0 +1,9 @@
+{
+  "type": "minecraft:smithing_transform",
+  "addition": "dragonscorpse:dragon_membrane",
+  "base": "minecraft:elytra",
+  "result": {
+    "id": "dragonscorpse:dragon_elytra"
+  },
+  "template": "dragonscorpse:dragonite_upgrade_smithing_template"
+}

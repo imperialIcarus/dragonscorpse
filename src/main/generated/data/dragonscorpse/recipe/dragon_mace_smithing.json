@@ -1,0 +1,9 @@
+{
+  "type": "minecraft:smithing_transform",
+  "addition": "dragonscorpse:dragon_eye",
+  "base": "minecraft:mace",
+  "result": {
+    "id": "dragonscorpse:dragon_mace"
+  },
+  "template": "dragonscorpse:dragonite_upgrade_smithing_template"
+}

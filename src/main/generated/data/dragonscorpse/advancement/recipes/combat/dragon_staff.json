@@ -1,0 +1,54 @@
+{
+  "parent": "minecraft:recipes/root",
+  "criteria": {
+    "has_dragon_bone": {
+      "conditions": {
+        "items": [
+          {
+            "items": "dragonscorpse:dragon_bone"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "has_dragon_eye": {
+      "conditions": {
+        "items": [
+          {
+            "items": "dragonscorpse:dragon_eye"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "has_dragon_membrane": {
+      "conditions": {
+        "items": [
+          {
+            "items": "dragonscorpse:dragon_membrane"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "has_the_recipe": {
+      "conditions": {
+        "recipes": "dragonscorpse:dragon_staff"
+      },
+      "trigger": "minecraft:recipe_unlocked"
+    }
+  },
+  "requirements": [
+    [
+      "has_the_recipe",
+      "has_dragon_membrane",
+      "has_dragon_bone",
+      "has_dragon_eye"
+    ]
+  ],
+  "rewards": {
+    "recipes": [
+      "dragonscorpse:dragon_staff"
+    ]
+  }
+}

@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "building",
+  "key": {
+    "b": "dragonscorpse:dragon_bone",
+    "e": "minecraft:end_stone",
+    "o": "minecraft:obsidian"
+  },
+  "pattern": [
+    "obo",
+    "beb",
+    "obo"
+  ],
+  "result": {
+    "id": "dragonscorpse:reinforced_end_stone"
+  }
+}

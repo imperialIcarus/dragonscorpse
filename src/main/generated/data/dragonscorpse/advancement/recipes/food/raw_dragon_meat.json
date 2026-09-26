@@ -1,0 +1,32 @@
+{
+  "parent": "minecraft:recipes/root",
+  "criteria": {
+    "has_dragon_flesh": {
+      "conditions": {
+        "items": [
+          {
+            "items": "dragonscorpse:dragon_flesh"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "has_the_recipe": {
+      "conditions": {
+        "recipes": "dragonscorpse:raw_dragon_meat"
+      },
+      "trigger": "minecraft:recipe_unlocked"
+    }
+  },
+  "requirements": [
+    [
+      "has_the_recipe",
+      "has_dragon_flesh"
+    ]
+  ],
+  "rewards": {
+    "recipes": [
+      "dragonscorpse:raw_dragon_meat"
+    ]
+  }
+}

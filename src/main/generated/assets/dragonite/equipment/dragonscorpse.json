@@ -1,0 +1,24 @@
+{
+  "layers": {
+    "horse_body": [
+      {
+        "texture": "dragonscorpse:dragonite"
+      }
+    ],
+    "humanoid": [
+      {
+        "texture": "dragonscorpse:dragonite"
+      }
+    ],
+    "humanoid_baby": [
+      {
+        "texture": "dragonscorpse:dragonite"
+      }
+    ],
+    "humanoid_leggings": [
+      {
+        "texture": "dragonscorpse:dragonite"
+      }
+    ]
+  }
+}

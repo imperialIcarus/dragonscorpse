@@ -1,0 +1,36 @@
+{
+  "parent": "dragonscorpse:end/dragonite_ingot",
+  "criteria": {
+    "dragonite_hoe": {
+      "conditions": {
+        "items": [
+          {
+            "items": "dragonscorpse:dragonite_hoe"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    }
+  },
+  "display": {
+    "description": {
+      "translate": "advancements.dragonscorpse.end.dragonite_hoe.desc"
+    },
+    "frame": "challenge",
+    "icon": {
+      "id": "dragonscorpse:dragonite_hoe"
+    },
+    "title": {
+      "translate": "advancements.dragonscorpse.end.dragonite_hoe.title"
+    }
+  },
+  "requirements": [
+    [
+      "dragonite_hoe"
+    ]
+  ],
+  "rewards": {
+    "experience": 400
+  },
+  "sends_telemetry_event": true
+}

@@ -1,0 +1,45 @@
+{
+  "parent": "dragonscorpse:end/dragonite_ingot",
+  "criteria": {
+    "dragonite_armor": {
+      "conditions": {
+        "items": [
+          {
+            "items": "dragonscorpse:dragonite_helmet"
+          },
+          {
+            "items": "dragonscorpse:dragonite_chestplate"
+          },
+          {
+            "items": "dragonscorpse:dragonite_leggings"
+          },
+          {
+            "items": "dragonscorpse:dragonite_boots"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    }
+  },
+  "display": {
+    "description": {
+      "translate": "advancements.dragonscorpse.end.dragonite_armor.desc"
+    },
+    "frame": "challenge",
+    "icon": {
+      "id": "dragonscorpse:dragonite_chestplate"
+    },
+    "title": {
+      "translate": "advancements.dragonscorpse.end.dragonite_armor.title"
+    }
+  },
+  "requirements": [
+    [
+      "dragonite_armor"
+    ]
+  ],
+  "rewards": {
+    "experience": 400
+  },
+  "sends_telemetry_event": true
+}

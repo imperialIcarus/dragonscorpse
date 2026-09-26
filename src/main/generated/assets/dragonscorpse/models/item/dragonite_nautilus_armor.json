@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:item/handheld",
+  "textures": {
+    "layer0": "dragonscorpse:item/dragonite_nautilus_armor"
+  }
+}

@@ -1,0 +1,14 @@
+// 26.3	-999999999-01-01T00:00:00	Dragon's Corpse/Tags for minecraft:item
+4a1c2f635af749e66e0843cf01412f0ddf03f2b2 data/dragonscorpse/tags/item/dragonite_repair.json
+d06d36e72d22b969b7b4a608b9cc33f550487dba data/minecraft/tags/item/axes.json
+0a456c080f4d6af975815f3ecfb355593981a66e data/minecraft/tags/item/chest_armor.json
+77ac34a4bfa7186f7168f1544e9cf6a8edda2c78 data/minecraft/tags/item/enchantable/durability.json
+3ca631e444dce57f08e8a2b0f0214939133a2e35 data/minecraft/tags/item/enchantable/mace.json
+3627f5a72a47ab4c68fa406ad156234c04dd25db data/minecraft/tags/item/foot_armor.json
+2dc074c2d8ca0ac0432e3b686076a81c56b7363a data/minecraft/tags/item/head_armor.json
+fcbe6e405b2c86a33ccfa5c5972d7d08f1931011 data/minecraft/tags/item/hoes.json
+75cbc42028eed3c041407deed4a486b82f22c7d7 data/minecraft/tags/item/leg_armor.json
+e87261d1fa5463e3705c6c6d5b1c170871792676 data/minecraft/tags/item/pickaxes.json
+d675cd0ffc59a8d368b1a6b90117f63a0705ba77 data/minecraft/tags/item/shovels.json
+10fd540b70806b38ebb66538cc8362d4425a4079 data/minecraft/tags/item/spears.json
+62bb629ea2a6f0794afe3473fc34d42c6c761005 data/minecraft/tags/item/swords.json

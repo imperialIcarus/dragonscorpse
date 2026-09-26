@@ -1,0 +1,48 @@
+{  
+  
+  "advancements.dragonscorpse.end.dragonite_ingot.title": "Forged of the Dragon",
+  "advancements.dragonscorpse.end.dragonite_ingot.desc": "Obtain a dragonite ingot",
+  "advancements.dragonscorpse.end.dragonite_armor.title": "Cover Me in Dragonite",
+  "advancements.dragonscorpse.end.dragonite_armor.desc": "Obtain all pieces of dragonite armor",
+  "advancements.dragonscorpse.end.dragonite_hoe.title": "Draconic Dedication",
+  "advancements.dragonscorpse.end.dragonite_hoe.desc": "Obtain a dragonite hoe",
+  "advancements.dragonscorpse.end.dragon_elytra.title": "No, The Moon is.",
+  "advancements.dragonscorpse.end.dragon_elytra.desc": "Obtain a dragon elytra",
+  "advancements.dragonscorpse.end.dragon_eye.title": "Eye of the Dragon",
+  "advancements.dragonscorpse.end.dragon_eye.desc": "Obtain a dragon eye",
+  "advancements.dragonscorpse.end.dragon_staff.title": "Draconic Magic",
+  "advancements.dragonscorpse.end.dragon_staff.desc": "Obtain a dragon staff",
+  "advancements.dragonscorpse.end.dragon_mace.title": "Kinetic Dragon",
+  "advancements.dragonscorpse.end.dragon_mace.desc": "Obtain a dragon mace",
+  
+  "creativemodetab.dragonscorpse.dragons_corpse_items": "Dragon's Corpse Items",
+  
+  "item.dragonscorpse.dragon_flesh": "Dragon Flesh",
+  "item.dragonscorpse.dragon_bone": "Dragon Bone",
+  "item.dragonscorpse.dragon_membrane": "Dragon Membrane",
+  "item.dragonscorpse.dragon_eye": "Dragon Eye",
+  "item.dragonscorpse.dragonite_upgrade_smithing_template": "Dragonite Upgrade Smithing Template",
+  "item.dragonscorpse.smithing_template.dragonite_upgrade.applies_to": "Netherite Equipment",
+  "item.dragonscorpse.smithing_template.dragonite_upgrade.ingredients": "Dragonite Ingot",
+  "item.dragonscorpse.dragonite_ingot": "Dragonite Ingot",
+  "item.dragonscorpse.dragonite_sword": "Dragonite Sword",
+  "item.dragonscorpse.dragonite_axe": "Dragonite Axe",
+  "item.dragonscorpse.dragonite_pickaxe": "Dragonite Pickaxe",
+  "item.dragonscorpse.dragonite_shovel": "Dragonite Shovel",
+  "item.dragonscorpse.dragonite_hoe": "Dragonite Hoe",
+  "item.dragonscorpse.dragonite_spear": "Dragonite Spear",
+  "item.dragonscorpse.dragonite_helmet": "Dragonite Helmet",
+  "item.dragonscorpse.dragonite_chestplate": "Dragonite Chestplate",
+  "item.dragonscorpse.dragonite_leggings": "Dragonite Leggings",
+  "item.dragonscorpse.dragonite_boots": "Dragonite Boots",
+  "item.dragonscorpse.dragonite_nautilus_armor": "Dragonite Nautilus Armor",
+  "item.dragonscorpse.raw_dragon_meat": "Raw Dragon Meat",
+  "item.dragonscorpse.cooked_dragon_meat": "Cooked Dragon Meat",
+  "item.dragonscorpse.dragon_elytra": "Dragon Elytra",
+  "item.dragonscorpse.dragon_mace": "Dragon Mace",
+  "item.dragonscorpse.dragon_staff": "Dragon Staff",
+
+  "block.dragonscorpse.reinforced_end_stone": "Reinforced End Stone",
+  "block.dragonscorpse.dragonite_block": "Dragonite Block"
+
+}

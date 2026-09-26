@@ -1,0 +1,16 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    "dragonscorpse:dragon_bone",
+    "dragonscorpse:dragon_bone",
+    "dragonscorpse:dragon_bone",
+    "dragonscorpse:dragon_bone",
+    "dragonscorpse:dragon_flesh",
+    "dragonscorpse:dragon_flesh",
+    "dragonscorpse:dragon_flesh",
+    "dragonscorpse:dragon_flesh"
+  ],
+  "result": {
+    "id": "dragonscorpse:dragonite_ingot"
+  }
+}

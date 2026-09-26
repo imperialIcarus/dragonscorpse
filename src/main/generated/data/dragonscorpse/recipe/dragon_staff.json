@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "equipment",
+  "key": {
+    "b": "dragonscorpse:dragon_bone",
+    "e": "dragonscorpse:dragon_eye",
+    "m": "dragonscorpse:dragon_membrane"
+  },
+  "pattern": [
+    " me",
+    " bm",
+    "b  "
+  ],
+  "result": {
+    "id": "dragonscorpse:dragon_staff"
+  }
+}

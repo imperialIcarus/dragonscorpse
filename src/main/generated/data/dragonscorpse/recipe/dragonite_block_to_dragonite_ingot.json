@@ -1,0 +1,12 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "building",
+  "group": "dragonite",
+  "ingredients": [
+    "dragonscorpse:dragonite_block"
+  ],
+  "result": {
+    "count": 9,
+    "id": "dragonscorpse:dragonite_ingot"
+  }
+}

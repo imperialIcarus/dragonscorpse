@@ -1,0 +1,4 @@
+// 26.3	-999999999-01-01T00:00:00	Dragon's Corpse/Tags for minecraft:block
+a249c46329a41538f49a564e1f14338aaf1be5a0 data/dragonscorpse/tags/block/needs_dragonite_tool.json
+8e76f293d69786743bcbbfc29294a67741d6fae6 data/minecraft/tags/block/mineable/pickaxe.json
+8e76f293d69786743bcbbfc29294a67741d6fae6 data/minecraft/tags/block/needs_diamond_tool.json

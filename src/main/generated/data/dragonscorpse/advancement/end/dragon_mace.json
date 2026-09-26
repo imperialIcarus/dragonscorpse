@@ -1,0 +1,36 @@
+{
+  "parent": "dragonscorpse:end/dragon_eye",
+  "criteria": {
+    "dragon_mace": {
+      "conditions": {
+        "items": [
+          {
+            "items": "dragonscorpse:dragon_mace"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    }
+  },
+  "display": {
+    "description": {
+      "translate": "advancements.dragonscorpse.end.dragon_mace.desc"
+    },
+    "frame": "challenge",
+    "icon": {
+      "id": "dragonscorpse:dragon_mace"
+    },
+    "title": {
+      "translate": "advancements.dragonscorpse.end.dragon_mace.title"
+    }
+  },
+  "requirements": [
+    [
+      "dragon_mace"
+    ]
+  ],
+  "rewards": {
+    "experience": 1000
+  },
+  "sends_telemetry_event": true
+}

@@ -1,0 +1,9 @@
+{
+  "type": "minecraft:smithing_transform",
+  "addition": "dragonscorpse:dragonite_ingot",
+  "base": "minecraft:netherite_pickaxe",
+  "result": {
+    "id": "dragonscorpse:dragonite_pickaxe"
+  },
+  "template": "dragonscorpse:dragonite_upgrade_smithing_template"
+}
