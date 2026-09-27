@@ -8,7 +8,7 @@ public class ModToolMaterials {
             ModTags.Blocks.INCORRECT_FOR_DRAGONITE_TOOL,
             2661,
             11f,
-            5.5f,
+            6f,
             15,
             ModTags.Items.DRAGONITE_REPAIR
     );

@@ -13,11 +13,11 @@ public class ModFoods {
         // Raw Food Properties and Consumable
         public static final FoodProperties DRAGON_RAW = new FoodProperties.Builder().nutrition(4).saturationModifier(0.1f).build();
         public static final Consumable DRAGON_RAW_CONSUMABLE = Consumables.defaultFood()
-                .onConsume(new ApplyStatusEffectsConsumeEffect(List.of(new MobEffectInstance(MobEffects.POISON, 30, 3), new MobEffectInstance(MobEffects.WITHER, 30, 3))))
+                .onConsume(new ApplyStatusEffectsConsumeEffect(List.of(new MobEffectInstance(MobEffects.POISON, 600, 2), new MobEffectInstance(MobEffects.WITHER, 600, 2))))
                 .build();
         // Cooked Food Properties and Consumable
         public static final FoodProperties DRAGON_COOKED = new FoodProperties.Builder().nutrition(10).saturationModifier(1.2f).alwaysEdible().build();
         public static final Consumable DRAGON_COOKED_CONSUMABLE = Consumables.defaultFood()
-                .onConsume(new ApplyStatusEffectsConsumeEffect(List.of(new MobEffectInstance(MobEffects.STRENGTH, 30, 2), new MobEffectInstance(MobEffects.SPEED, 30, 2))))
+                .onConsume(new ApplyStatusEffectsConsumeEffect(List.of(new MobEffectInstance(MobEffects.STRENGTH, 1800, 1), new MobEffectInstance(MobEffects.SPEED, 1800, 1))))
                 .build();
 }

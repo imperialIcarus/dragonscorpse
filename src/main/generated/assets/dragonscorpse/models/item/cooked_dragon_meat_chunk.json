@@ -1,6 +1,6 @@
 {
   "parent": "minecraft:item/generated",
   "textures": {
-    "layer0": "dragonscorpse:item/raw_dragon_meat"
+    "layer0": "dragonscorpse:item/cooked_dragon_meat_chunk"
   }
 }

@@ -15,6 +15,7 @@ import net.minecraft.world.entity.projectile.hurtingprojectile.DragonFireball;
 import net.minecraft.world.entity.projectile.throwableitemprojectile.ThrownEnderpearl;
 import net.minecraft.world.item.Item;
 import net.minecraft.world.item.ItemStack;
+import net.minecraft.world.item.Items;
 import net.minecraft.world.item.TooltipFlag;
 import net.minecraft.world.item.component.TooltipDisplay;
 import net.minecraft.world.level.Level;
@@ -40,14 +41,14 @@ public class DragonStaffItem extends Item {
                         lookDirection.x,
                         lookDirection.y,
                         lookDirection.z,
-                        3f,
+                        1f,
                         0f);
             }
             player.getItemInHand(hand).hurtAndBreak(2, player, hand);
         } else {
             level.playSound((Entity)null, player.getX(), player.getY(), player.getZ(), SoundEvents.ENDER_PEARL_THROW, SoundSource.NEUTRAL, 0.5F, 0.4F / (level.getRandom().nextFloat() * 0.4F + 0.8F));
             if (level instanceof ServerLevel serverLevel) {
-                Projectile.spawnProjectileFromRotation(ThrownEnderpearl::new, serverLevel, player.getItemInHand(hand), player, 0.0F, 1.5F, 1.0F);
+                Projectile.spawnProjectileFromRotation(ThrownEnderpearl::new, serverLevel, new ItemStack(Items.ENDER_PEARL, 1), player, 0.0F, 1.5F, 1.0F);
             }
             player.getItemInHand(hand).hurtAndBreak(1, player, hand);
         }

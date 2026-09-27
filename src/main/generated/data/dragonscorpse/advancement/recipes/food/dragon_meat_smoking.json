@@ -1,11 +1,11 @@
 {
   "parent": "minecraft:recipes/root",
   "criteria": {
-    "has_raw_dragon_meat": {
+    "has_raw_dragon_meat_chunk": {
       "conditions": {
         "items": [
           {
-            "items": "dragonscorpse:raw_dragon_meat"
+            "items": "dragonscorpse:raw_dragon_meat_chunk"
           }
         ]
       },
@@ -21,7 +21,7 @@
   "requirements": [
     [
       "has_the_recipe",
-      "has_raw_dragon_meat"
+      "has_raw_dragon_meat_chunk"
     ]
   ],
   "rewards": {

@@ -33,7 +33,7 @@ public class ModBlocks {
             .sound(SoundType.NETHERITE_BLOCK)
             .requiresCorrectToolForDrops()));
     // Reinforced Endstone
-    public static final Block REINFORCED_ENDSTONE = registerBlock("reinforced_end_stone", properties -> new Block(properties
+    public static final Block REINFORCED_END_STONE = registerBlock("reinforced_end_stone", properties -> new Block(properties
             .strength(80f, 1200f)
             .pushReaction(PushReaction.IMMOVEABLE)
             .sound(SoundType.DEEPSLATE)

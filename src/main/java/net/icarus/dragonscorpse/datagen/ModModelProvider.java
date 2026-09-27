@@ -17,7 +17,7 @@ public class ModModelProvider extends FabricModelProvider {
     @Override
     public void generateBlockStateModels(BlockModelGenerators blockModelGenerators) {
         blockModelGenerators.createTrivialCube(ModBlocks.DRAGONITE_BLOCK);
-        blockModelGenerators.createTrivialCube(ModBlocks.REINFORCED_ENDSTONE);
+        blockModelGenerators.createTrivialCube(ModBlocks.REINFORCED_END_STONE);
 
     }
 
@@ -27,8 +27,8 @@ public class ModModelProvider extends FabricModelProvider {
         itemModelGenerators.generateFlatItem(ModItems.DRAGON_BONE, ModelTemplates.FLAT_ITEM);
         itemModelGenerators.generateFlatItem(ModItems.DRAGON_MEMBRANE, ModelTemplates.FLAT_ITEM);
         itemModelGenerators.generateFlatItem(ModItems.DRAGON_EYE, ModelTemplates.FLAT_ITEM);
-        itemModelGenerators.generateFlatItem(ModItems.RAW_DRAGON_MEAT, ModelTemplates.FLAT_ITEM);
-        itemModelGenerators.generateFlatItem(ModItems.COOKED_DRAGON_MEAT, ModelTemplates.FLAT_ITEM);
+        itemModelGenerators.generateFlatItem(ModItems.RAW_DRAGON_MEAT_CHUNK, ModelTemplates.FLAT_ITEM);
+        itemModelGenerators.generateFlatItem(ModItems.COOKED_DRAGON_MEAT_CHUNK, ModelTemplates.FLAT_ITEM);
         itemModelGenerators.generateFlatItem(ModItems.DRAGONITE_UPGRADE_SMITHING_TEMPLATE, ModelTemplates.FLAT_ITEM);
         itemModelGenerators.generateFlatItem(ModItems.DRAGONITE_INGOT, ModelTemplates.FLAT_ITEM);
 

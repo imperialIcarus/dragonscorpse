@@ -64,7 +64,7 @@ public class ModAdvancementsProvider extends FabricAdvancementProvider {
                 .parent(dragonEye)
                 .display(ModItems.DRAGON_STAFF, Component.translatable("advancements.dragonscorpse.end.dragon_staff.title"), Component.translatable("advancements.dragonscorpse.end.dragon_staff.desc"), AdvancementType.CHALLENGE, true, true, false)
                 .rewards(AdvancementRewards.Builder.experience(1000))
-                .addCriterion("dragon_staff", InventoryChangeTrigger.TriggerInstance.hasItems(ModItems.DRAGON_EYE))
+                .addCriterion("dragon_staff", InventoryChangeTrigger.TriggerInstance.hasItems(ModItems.DRAGON_STAFF))
                 .save(consumer, DragonSCorpse.id("end/dragon_staff"));
         // Dragon Mace Advancement
         Advancement.Builder.advancement()

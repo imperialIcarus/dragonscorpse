@@ -13,7 +13,7 @@
     },
     "has_the_recipe": {
       "conditions": {
-        "recipes": "dragonscorpse:raw_dragon_meat"
+        "recipes": "dragonscorpse:raw_dragon_meat_chunk"
       },
       "trigger": "minecraft:recipe_unlocked"
     }
@@ -26,7 +26,7 @@
   ],
   "rewards": {
     "recipes": [
-      "dragonscorpse:raw_dragon_meat"
+      "dragonscorpse:raw_dragon_meat_chunk"
     ]
   }
 }

@@ -19,8 +19,10 @@ import net.minecraft.world.level.storage.loot.providers.number.ints.ContextIntPr
 import java.util.List;
 
 public class ModLootTableModifiers {
-    public static final List<? extends UniformContainerBase.Builder<?>> DRAGON_COMMON_LOOT = List.of(
-            LootItem.lootTableItem(ModItems.DRAGON_BONE).apply(SetItemCountFunction.setCount(ContextIntProviders.between(3, 5))),
+    public static final List<? extends UniformContainerBase.Builder<?>> DRAGON_BONE_LOOT = List.of(
+            LootItem.lootTableItem(ModItems.DRAGON_BONE).apply(SetItemCountFunction.setCount(ContextIntProviders.between(3, 5)))
+    );
+    public static final List<? extends UniformContainerBase.Builder<?>> DRAGON_FLESH_LOOT = List.of(
             LootItem.lootTableItem(ModItems.DRAGON_FLESH).apply(SetItemCountFunction.setCount(ContextIntProviders.between(3, 5)))
     );
     public static final List<? extends UniformContainerBase.Builder<?>> DRAGON_MEMBRANE_LOOT = List.of(
@@ -34,7 +36,8 @@ public class ModLootTableModifiers {
             LootItem.lootTableItem(ModItems.DRAGONITE_UPGRADE_SMITHING_TEMPLATE).apply(SetItemCountFunction.setCount(ContextIntProviders.exactly(1)))
     );
     public static void modifyLootTables(ResourceKey<LootTable> key, FabricLootTableBuilder builder, LootTableSource source, HolderLookup.Provider provider) {
-        addPoolToLootTable(key, builder, "entities/ender_dragon", 1, LootItemRandomChanceCondition.randomChance(1f), DRAGON_COMMON_LOOT);
+        addPoolToLootTable(key, builder, "entities/ender_dragon", 1, LootItemRandomChanceCondition.randomChance(1f), DRAGON_BONE_LOOT);
+        addPoolToLootTable(key, builder, "entities/ender_dragon", 1, LootItemRandomChanceCondition.randomChance(1f), DRAGON_FLESH_LOOT);
         addPoolToLootTable(key, builder, "entities/ender_dragon", 1, LootItemRandomChanceCondition.randomChance(1f), DRAGON_MEMBRANE_LOOT);
         addPoolToLootTable(key, builder, "entities/ender_dragon", 1, LootItemRandomChanceCondition.randomChance(0.1f), DRAGON_EYE_LOOT);
 

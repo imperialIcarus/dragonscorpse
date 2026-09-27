@@ -21,8 +21,8 @@ public class ModCreativeModeTabs {
             ModItems.DRAGON_FLESH,
             ModItems.DRAGON_MEMBRANE,
             ModItems.DRAGON_EYE,
-            ModItems.RAW_DRAGON_MEAT,
-            ModItems.COOKED_DRAGON_MEAT,
+            ModItems.RAW_DRAGON_MEAT_CHUNK,
+            ModItems.COOKED_DRAGON_MEAT_CHUNK,
             ModItems.DRAGONITE_HELMET,
             ModItems.DRAGONITE_CHESTPLATE,
             ModItems.DRAGONITE_LEGGINGS,
@@ -40,7 +40,7 @@ public class ModCreativeModeTabs {
             ModItems.DRAGONITE_UPGRADE_SMITHING_TEMPLATE,
             ModItems.DRAGONITE_INGOT,
             ModBlocks.DRAGONITE_BLOCK,
-            ModBlocks.REINFORCED_ENDSTONE
+            ModBlocks.REINFORCED_END_STONE
     );
     public static final CreativeModeTab DRAGONS_CORPSE_CREATIVE_MODE_TAB = register(
             "dragons_corpse_items",

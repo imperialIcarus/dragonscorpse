@@ -55,36 +55,36 @@ public class ModRecipeProvider extends FabricRecipeProvider { // Provides the re
                         .unlockedBy(getHasName(Items.NETHERITE_SCRAP), has(Items.NETHERITE_SCRAP))
                         .save(output);
                 // Misc Recipes
-                shapeless(RecipeCategory.FOOD, ModItems.RAW_DRAGON_MEAT, 8)
+                shapeless(RecipeCategory.FOOD, ModItems.RAW_DRAGON_MEAT_CHUNK, 8)
                         .requires(ModItems.DRAGON_FLESH)
                         .unlockedBy(getHasName(ModItems.DRAGON_FLESH), has(ModItems.DRAGON_FLESH))
                         .save(output);
                 SimpleCookingRecipeBuilder.smelting(
-                        Ingredient.of(ModItems.RAW_DRAGON_MEAT),
+                        Ingredient.of(ModItems.RAW_DRAGON_MEAT_CHUNK),
                         RecipeCategory.FOOD,
                         CookingBookCategory.FOOD,
-                        ModItems.COOKED_DRAGON_MEAT,
+                        ModItems.COOKED_DRAGON_MEAT_CHUNK,
                         3.5f,
-                        120)
-                        .unlockedBy(getHasName(ModItems.RAW_DRAGON_MEAT), has(ModItems.RAW_DRAGON_MEAT))
+                        300)
+                        .unlockedBy(getHasName(ModItems.RAW_DRAGON_MEAT_CHUNK), has(ModItems.RAW_DRAGON_MEAT_CHUNK))
                         .save(output, DragonSCorpse.id("dragon_meat_smelting").toString());
                 SimpleCookingRecipeBuilder.smoking(
-                                Ingredient.of(ModItems.RAW_DRAGON_MEAT),
+                                Ingredient.of(ModItems.RAW_DRAGON_MEAT_CHUNK),
                                 RecipeCategory.FOOD,
-                                ModItems.COOKED_DRAGON_MEAT,
-                                3.5f,
-                                60)
-                        .unlockedBy(getHasName(ModItems.RAW_DRAGON_MEAT), has(ModItems.RAW_DRAGON_MEAT))
-                        .save(output, DragonSCorpse.id("dragon_meat_smoking").toString());
-                SimpleCookingRecipeBuilder.campfireCooking(
-                                Ingredient.of(ModItems.RAW_DRAGON_MEAT),
-                                RecipeCategory.FOOD,
-                                ModItems.COOKED_DRAGON_MEAT,
+                                ModItems.COOKED_DRAGON_MEAT_CHUNK,
                                 3.5f,
                                 150)
-                        .unlockedBy(getHasName(ModItems.RAW_DRAGON_MEAT), has(ModItems.RAW_DRAGON_MEAT))
+                        .unlockedBy(getHasName(ModItems.RAW_DRAGON_MEAT_CHUNK), has(ModItems.RAW_DRAGON_MEAT_CHUNK))
+                        .save(output, DragonSCorpse.id("dragon_meat_smoking").toString());
+                SimpleCookingRecipeBuilder.campfireCooking(
+                                Ingredient.of(ModItems.RAW_DRAGON_MEAT_CHUNK),
+                                RecipeCategory.FOOD,
+                                ModItems.COOKED_DRAGON_MEAT_CHUNK,
+                                3.5f,
+                                360)
+                        .unlockedBy(getHasName(ModItems.RAW_DRAGON_MEAT_CHUNK), has(ModItems.RAW_DRAGON_MEAT_CHUNK))
                         .save(output, DragonSCorpse.id("dragon_meat_campfire_cooking").toString());
-                shaped(RecipeCategory.BUILDING_BLOCKS, ModBlocks.REINFORCED_ENDSTONE)
+                shaped(RecipeCategory.BUILDING_BLOCKS, ModBlocks.REINFORCED_END_STONE)
                         .pattern("obo")
                         .pattern("beb")
                         .pattern("obo")

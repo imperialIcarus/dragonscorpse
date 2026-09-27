@@ -19,12 +19,13 @@ public class ModArmorMaterials {
             Identifier.withDefaultNamespace("equipment_asset"));
 
     public static final ResourceKey<EquipmentAsset> DRAGONITE_KEY = createRK("dragonite");
+    public static final ResourceKey<EquipmentAsset> DRAGON_ELYTRA_KEY = createRK("dragon_elytra");
 
     public static final ArmorMaterial DRAGONITE_ARMOR_MATERAL = new ArmorMaterial(
             43,
             ArmorMaterials.makeDefense(5, 8, 10, 5, 28),
             15,
-            SoundEvents.ARMOR_EQUIP_GENERIC,
+            SoundEvents.ARMOR_EQUIP_NETHERITE,
             4.0f,
             0.2f,
             ModTags.Items.DRAGONITE_REPAIR,

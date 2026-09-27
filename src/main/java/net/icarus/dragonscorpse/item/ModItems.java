@@ -68,8 +68,8 @@ public class ModItems {
     public static final Item DRAGONITE_UPGRADE_SMITHING_TEMPLATE = registerItem("dragonite_upgrade_smithing_template", properties -> new SmithingTemplateItem(
             Component.translatable("item.dragonscorpse.smithing_template.dragonite_upgrade.applies_to").withStyle(ChatFormatting.BLUE),
             Component.translatable("item.dragonscorpse.smithing_template.dragonite_upgrade.ingredients").withStyle(ChatFormatting.BLUE),
-            Component.translatable(Util.makeDescriptionId("item", Identifier.withDefaultNamespace("smithing_template.netherite_upgrade.base_slot_description"))),
-            Component.translatable(Util.makeDescriptionId("item", Identifier.withDefaultNamespace("smithing_template.netherite_upgrade.additions_slot_description"))),
+            Component.translatable("item.dragonscorpse.smithing.template.dragonite_upgrade.base_slot_description"),
+            Component.translatable("item.dragonscorpse.smithing.template.dragonite_upgrade.additions_slot_description"),
             List.of(EMPTY_SLOT_HELMET, EMPTY_SLOT_SWORD, EMPTY_SLOT_CHESTPLATE, EMPTY_SLOT_PICKAXE, EMPTY_SLOT_LEGGINGS, EMPTY_SLOT_AXE, EMPTY_SLOT_BOOTS, EMPTY_SLOT_HOE, EMPTY_SLOT_SHOVEL, EMPTY_SLOT_NAUTILUS_ARMOR, EMPTY_SLOT_SPEAR),
             List.of(EMPTY_SLOT_INGOT),
             properties.rarity(Rarity.EPIC)));
@@ -120,16 +120,16 @@ public class ModItems {
             .durability(1296)
             .rarity(Rarity.EPIC)
             .component(DataComponents.GLIDER, Unit.INSTANCE)
-            .component(DataComponents.EQUIPPABLE, Equippable.builder(EquipmentSlot.CHEST).setEquipSound(SoundEvents.ARMOR_EQUIP_ELYTRA).setAsset(EquipmentAssets.ELYTRA).setDamageOnHurt(false).build())
+            .component(DataComponents.EQUIPPABLE, Equippable.builder(EquipmentSlot.CHEST).setEquipSound(SoundEvents.ARMOR_EQUIP_ELYTRA).setAsset(ModArmorMaterials.DRAGON_ELYTRA_KEY).setDamageOnHurt(false).build())
             .repairable(DRAGON_MEMBRANE)
             .fireResistant()
             .attributes(ItemAttributeModifiers.builder().add(Attributes.ARMOR, new AttributeModifier(Identifier.fromNamespaceAndPath(DragonSCorpse.MOD_ID, "dragon_elytra_armor"), 7f, AttributeModifier.Operation.ADD_VALUE), EquipmentSlotGroup.CHEST).build())));
     // Dragon Foods
-    public static final Item RAW_DRAGON_MEAT = registerItem("raw_dragon_meat", properties -> new Item(properties
+    public static final Item RAW_DRAGON_MEAT_CHUNK = registerItem("raw_dragon_meat_chunk", properties -> new Item(properties
             .rarity(Rarity.UNCOMMON)
             .food(ModFoods.DRAGON_RAW, ModFoods.DRAGON_RAW_CONSUMABLE)
     ));
-    public static final Item COOKED_DRAGON_MEAT = registerItem("cooked_dragon_meat", properties -> new Item(properties
+    public static final Item COOKED_DRAGON_MEAT_CHUNK = registerItem("cooked_dragon_meat_chunk", properties -> new Item(properties
             .rarity(Rarity.RARE)
             .food(ModFoods.DRAGON_COOKED, ModFoods.DRAGON_COOKED_CONSUMABLE)
     ));

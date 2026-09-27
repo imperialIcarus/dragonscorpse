@@ -47,12 +47,18 @@ public class ModEquipmentAssetProvider implements DataProvider {
 
     private static void bootstrap(BiConsumer<ResourceKey<EquipmentAsset>, EquipmentClientInfo> consumer) {
         acceptArmorAsset(consumer, "dragonite", ModArmorMaterials.DRAGONITE_KEY);
+        acceptElytraAsset(consumer, "dragon_elytra", ModArmorMaterials.DRAGON_ELYTRA_KEY);
     }
 
     public static void acceptArmorAsset(BiConsumer<ResourceKey<EquipmentAsset>, EquipmentClientInfo> consumer, String name, ResourceKey<EquipmentAsset> armorMaterial) {
         consumer.accept(armorMaterial, EquipmentClientInfo.builder()
                         .addHumanoidLayers(Identifier.fromNamespaceAndPath(DragonSCorpse.MOD_ID, name))
                         .addLayers(EquipmentClientInfo.LayerType.HORSE_BODY, new EquipmentClientInfo.Layer(Identifier.fromNamespaceAndPath(DragonSCorpse.MOD_ID, name)))
+                .build());
+    }
+    public static void acceptElytraAsset(BiConsumer<ResourceKey<EquipmentAsset>, EquipmentClientInfo> consumer, String name, ResourceKey<EquipmentAsset> armorMaterial) {
+        consumer.accept(armorMaterial, EquipmentClientInfo.builder()
+                .addLayers(EquipmentClientInfo.LayerType.WINGS, new EquipmentClientInfo.Layer(Identifier.fromNamespaceAndPath(DragonSCorpse.MOD_ID, name)))
                 .build());
     }
 

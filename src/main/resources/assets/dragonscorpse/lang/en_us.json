@@ -21,9 +21,13 @@
   "item.dragonscorpse.dragon_bone": "Dragon Bone",
   "item.dragonscorpse.dragon_membrane": "Dragon Membrane",
   "item.dragonscorpse.dragon_eye": "Dragon Eye",
+
   "item.dragonscorpse.dragonite_upgrade_smithing_template": "Dragonite Upgrade Smithing Template",
   "item.dragonscorpse.smithing_template.dragonite_upgrade.applies_to": "Netherite Equipment",
-  "item.dragonscorpse.smithing_template.dragonite_upgrade.ingredients": "Dragonite Ingot",
+  "item.dragonscorpse.smithing_template.dragonite_upgrade.ingredients": "Dragonite Ingot or Dragon Eye",
+  "item.dragonscorpse.smithing.template.dragonite_upgrade.base_slot_description": "Add netherite armor, weapon, tool, or a mace",
+  "item.dragonscorpse.smithing.template.dragonite_upgrade.additions_slot_description": "Add Dragonite Ingot",
+
   "item.dragonscorpse.dragonite_ingot": "Dragonite Ingot",
   "item.dragonscorpse.dragonite_sword": "Dragonite Sword",
   "item.dragonscorpse.dragonite_axe": "Dragonite Axe",
@@ -36,8 +40,8 @@
   "item.dragonscorpse.dragonite_leggings": "Dragonite Leggings",
   "item.dragonscorpse.dragonite_boots": "Dragonite Boots",
   "item.dragonscorpse.dragonite_nautilus_armor": "Dragonite Nautilus Armor",
-  "item.dragonscorpse.raw_dragon_meat": "Raw Dragon Meat",
-  "item.dragonscorpse.cooked_dragon_meat": "Cooked Dragon Meat",
+  "item.dragonscorpse.raw_dragon_meat_chunk": "Raw Dragon Meat Chunk",
+  "item.dragonscorpse.cooked_dragon_meat_chunk": "Cooked Dragon Meat Chunk",
   "item.dragonscorpse.dragon_elytra": "Dragon Elytra",
   "item.dragonscorpse.dragon_mace": "Dragon Mace",
   "item.dragonscorpse.dragon_staff": "Dragon Staff",
@@ -49,5 +53,6 @@
   "tooltip.dragonscorpse.dragon_staff_shifted_1": "§eRIGHT CLICK§7§i to throw an ender pearl",
   "tooltip.dragonscorpse.dragon_staff_shifted_2": "§eSHIFT RIGHT CLICK§7§i to shoot a dragon fireball",
   "tooltip.dragonscorpse.dragon_staff_shifted_3": "§7§iCooldown 30 Seconds"
+
 
 }
