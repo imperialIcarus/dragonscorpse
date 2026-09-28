@@ -15,6 +15,8 @@ Dragon's Corpse adds four new drops from the dragon.
 
 Dragon Flesh and Dragon Bone can be crafted into Dragonite Ingots. Dragonite Ingots can be used to upgrade Netherite armor and tools with a Dragonite Upgrade Smithing Template, which is rarely found in end cities.
 
+Dragon Flesh can also be crafted into Dragon Meat Chunks, a new food, and Dragon Bone can be made into Reinforced End Stone, a very hard block.
+
 The Dragon Membrane can be used to craft the Dragon Elytra.
 
 The Dragon Eye can be used to craft the Dragon Mace and the Dragon Staff.
