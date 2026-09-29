@@ -27,6 +27,8 @@ The Dragon Eye can be used to craft the Dragon Mace and the Dragon Staff.
 
 Made by imperialIcarus.
 
+Feel free to use in modpacks!
+
 For bug-reports please see the [issue tracker](https://github.com/imperialIcarus/dragonscorpse/issues).
 
-This mod is only officially distributed through Curseforge, Modrinth, and the [github repository](https://github.com/imperialIcarus/dragonscorpse).
+This mod is only officially distributed through [Curseforge](https://www.curseforge.com/minecraft/mc-mods/dragons-corpse), [Modrinth](https://modrinth.com/mod/dragonscorpse), and the [github repository](https://github.com/imperialIcarus/dragonscorpse).
